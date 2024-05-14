@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/resume" element={<ResumePage />} />
             <Route exact path="/portfolio" element={<PortfolioPage />} />
             <Route exact path="/contactme" element={<ContactMePage />} />
-            <Route exact path="/projects" element={<ProjectsPage />} />
+            <Route exact path="/project" element={<ProjectsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Layout>
